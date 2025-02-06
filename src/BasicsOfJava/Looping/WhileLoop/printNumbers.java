@@ -1,4 +1,4 @@
-package BasicsOfJava.WhileLoop;
+package BasicsOfJava.Looping.WhileLoop;
 
 public class printNumbers {
 
