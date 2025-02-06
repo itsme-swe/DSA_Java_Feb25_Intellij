@@ -14,3 +14,12 @@ public class starTriangle_Patter4 {
         }
     }
 }
+
+/*
+
+ *
+ * *
+ * * *
+ * * * *
+
+*/
