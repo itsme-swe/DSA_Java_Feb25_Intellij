@@ -1,14 +1,16 @@
 package PatternPrinting.TrianglePatterns;
 
-public class numTriangle_Pattern4 {
+public class starTriangleReverse_Pattern {
 
     public static void main(String[] args) {
 
-        int n = 4;
+        int n = 5;
 
         for (int i = 1; i <= n ; i++) {
-            for (int j = 1; j <= i ; j++) {
-                System.out.print(i + " ");
+
+            for (int j = 1; j <= (n-i)+1 ; j++) {
+
+                System.out.print("* ");
             }
             System.out.println();
         }
@@ -17,10 +19,10 @@ public class numTriangle_Pattern4 {
 
 /*
 
-1
-2 2
-3 3 3
-4 4 4 4
+ * * * * *
+ * * * *
+ * * *
+ * *
+ *
 
 */
-

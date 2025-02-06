@@ -1,6 +1,6 @@
 package PatternPrinting.TrianglePatterns;
 
-public class mixAlphaNumber_Patter5 {
+public class mixAlphaNumber_Pattern {
 
     public static void main(String[] args) {
 

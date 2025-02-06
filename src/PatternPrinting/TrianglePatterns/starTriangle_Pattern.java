@@ -1,6 +1,6 @@
 package PatternPrinting.TrianglePatterns;
 
-public class starTriangle_Patter1 {
+public class starTriangle_Pattern {
 
     public static void main(String[] args) {
 
