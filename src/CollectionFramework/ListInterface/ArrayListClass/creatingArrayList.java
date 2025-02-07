@@ -16,6 +16,8 @@ public class creatingArrayList {
         ls.add(50);
         ls.add(60);
 
+        ls.addFirst(100);
+
         System.out.println(ls);
 
 
