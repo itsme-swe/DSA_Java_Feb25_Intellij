@@ -9,7 +9,7 @@ public class isEmptyMethod {
 
         List<Integer> ls = new ArrayList<>();
 
-        System.out.println(ls.isEmpty());   // Returns "true" if list is empty
+        System.out.println(ls.isEmpty());   // Returns "true" if the list is empty
 
         ls.add(20);
         ls.add(10);
