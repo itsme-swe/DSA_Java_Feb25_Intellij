@@ -20,8 +20,5 @@ public class offerMethod {
 
         System.out.println(dq); // [5, 20, 10, 30, 40]
 
-
-
-
     }
 }
