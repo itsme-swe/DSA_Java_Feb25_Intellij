@@ -1,35 +1,29 @@
-package CollectionFramework.ListInterface.ArrayList;
+package CollectionFramework.ListInterface.ArrayListClass;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class toRemoveFromList_Method2 {
+public class toIterateTheList_Method4 {
 
     public static void main(String[] args) {
 
         List<Integer> ls = new ArrayList<>();
 
-        ls.add(20);
         ls.add(10);
-        ls.add(5);
-        ls.add(2);
+        ls.add(1);
         ls.add(30);
+        ls.add(5);
+        ls.add(12);
+        ls.add(25);
 
-        // Traversing a list using iterator
         Iterator<Integer> it = ls.iterator();
 
-        while (it.hasNext()) {
+        while (it.hasNext()){
             System.out.print(it.next() + " ");
         }
-
-        // 20 10 5 2 30
-
         System.out.println();
-
-        ls.remove(3);
-
-        System.out.print(ls);   // [20, 10, 5, 30]
-
     }
 }
+
+// 10 1 30 5 12 25

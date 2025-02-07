@@ -1,8 +1,7 @@
-package CollectionFramework.ListInterface.ArrayList;
+package CollectionFramework.ListInterface.ArrayListClass;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 
 public class toArrayMethod {
 

@@ -1,7 +1,6 @@
-package CollectionFramework.ListInterface.ArrayList;
+package CollectionFramework.ListInterface.ArrayListClass;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 public class creatingArrayList {
