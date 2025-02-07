@@ -28,6 +28,8 @@ public class toCopyElements_Method3 {
 
         System.out.println(ls); // [Harsh, Mukul, Juhu]
 
+        System.out.println(ls.size());
+
 
     }
 }
