@@ -16,7 +16,7 @@ public class changingPriority {
 
         System.out.println(pq); // [30, 20, 10, 5, 15]
 
-        System.out.println(pq.peek());  // 30 -- now here highest element has the highest priority
+        System.out.println(pq.peek());  // 30 -- now here the highest element has the highest priority
 
     }
 }
