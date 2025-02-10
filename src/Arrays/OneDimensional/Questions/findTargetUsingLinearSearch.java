@@ -10,7 +10,7 @@ public class findTargetUsingLinearSearch {
 
         findTarget(arr,target);
 
-        // Target not in array
+        // Target doesn't in array
     }
 
     public static void findTarget(int[] arr, int t) {
@@ -30,7 +30,7 @@ public class findTargetUsingLinearSearch {
             System.out.println("Target found");
         }
         else {
-            System.out.println("Target not in array");
+            System.out.println("Target doesn't in array");
         }
 
     }
