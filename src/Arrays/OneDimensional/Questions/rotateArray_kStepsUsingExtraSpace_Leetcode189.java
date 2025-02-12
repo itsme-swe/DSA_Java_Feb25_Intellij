@@ -1,6 +1,6 @@
 package Arrays.OneDimensional.Questions;
 
-public class rotateArray_kStepsUsingExtraSpace {
+public class rotateArray_kStepsUsingExtraSpace_Leetcode189 {
 
     public static void main(String[] args) {
 
