@@ -11,7 +11,7 @@ LeetCode - https://leetcode.com/problems/two-sum/
 
 package Arrays.OneDimensional.Questions;
 
-public class twoSum_LeetcodeQues1 {
+public class twoSum_Leetcode_1 {
 
     public static void main(String[] args) {
 
