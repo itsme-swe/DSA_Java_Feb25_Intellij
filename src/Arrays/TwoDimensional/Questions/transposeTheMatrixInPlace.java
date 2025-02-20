@@ -9,30 +9,20 @@ public class transposeTheMatrixInPlace {
         int m = arr.length;
         int n = arr[0].length;
 
-        for (int i = 0; i < m; i++) {
+        for (int j = 0; j < n; j++) {
 
-            for (int j = i+1; j < n; j++) {
+            for (int i = 0; i < m; i++) {
 
-                int temp = arr[i][j];
-                arr[i][j] = arr[j][i];
-                arr[j][i] = temp;
-            }
-        }
-
-        for(int[] row : arr) {
-            for(int ele : row) {
-                System.out.print(ele + " ");
+                System.out.print(arr[i][j] + " ");
             }
             System.out.println();
         }
-
     }
-
 }
 
 /*
 
-🔸 Transposing matrix without using extra space
+🔸 Transposing matrix (Column wise printing) without using extra space
 
 1 4 7
 2 5 8
