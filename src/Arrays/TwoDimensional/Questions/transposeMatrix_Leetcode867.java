@@ -46,3 +46,11 @@ public class transposeMatrix_Leetcode867 {
         return transpose;
     }
 }
+
+/*
+
+1 5 10
+2 6 11
+3 7 12
+
+*/
