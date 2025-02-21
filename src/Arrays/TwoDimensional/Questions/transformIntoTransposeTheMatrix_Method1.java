@@ -1,6 +1,6 @@
 package Arrays.TwoDimensional.Questions;
 
-public class transformIntoTransposeTheMatrix {
+public class transformIntoTransposeTheMatrix_Method1 {
 
     public static void main(String[] args) {
 
@@ -40,7 +40,7 @@ public class transformIntoTransposeTheMatrix {
 }
 
 /*
-
+🔸 Less Optimized
 1 5 9 13
 2 6 10 14
 3 7 11 15
