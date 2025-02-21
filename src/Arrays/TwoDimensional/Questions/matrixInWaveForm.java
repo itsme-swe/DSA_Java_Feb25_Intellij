@@ -10,12 +10,14 @@ public class matrixInWaveForm {
         int n = arr[0].length;
 
         for (int i = 0; i < m; i++) {
+            // if the row is even, moving from left to right
             if(i % 2 == 0) {
                 for (int j = 0; j < n; j++) {
                     System.out.print(arr[i][j] + " ");
                 }
                 System.out.println();
             }
+            // if the row is odd, moving from right to left
             else {
                 for (int j = n-1; j >= 0 ; j--) {
                     System.out.print(arr[i][j] + " ");
@@ -35,6 +37,6 @@ public class matrixInWaveForm {
 16 15 14 13
 
 🔸 Approach:
-1. Our outer loop is running for rows, and inside the outer loop there is a condition if our I become odd then we'll move from right to left.
+1. Our outer loop is running for rows, and inside the outer loop there is a condition if our 'i' become odd then we'll move from right to left.
 
 */
